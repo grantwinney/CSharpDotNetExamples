@@ -55,4 +55,4 @@ The list below has links to each blog post, as well as a direct link to the rele
 
 ## C# 1 / .NET 1
 
-- Some practical examples of C# attributes ([blog post](https://grantwinney.com/5-examples-of-attributes-in-c-and-why-youll-want-to-make-your-own/), [source code](https://github.com/grantwinney/BlogCodeSamples/tree/master/AttributesExamples))
+- Some practical examples of C# attributes ([blog post](https://grantwinney.com/5-examples-of-attributes-in-c-and-why-youll-want-to-make-your-own/), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2001/Attributes))
