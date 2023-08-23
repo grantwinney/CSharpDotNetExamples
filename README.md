@@ -1,6 +1,6 @@
 # C# / .NET Examples
 
-The samples in this repo go along with my blog posts that relate to specific [versions of C#](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history) and the .NET Framework (which are [very closely related](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/relationships-between-language-and-library) and usually updated at the same time, as shown [here](https://github.com/dotnet/csharplang/blob/main/Language-Version-History.md) and [here](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)#Versions)). I occasionally host shorter snippets on [Gist](https://gist.github.com/grantwinney) or [JsFiddle](https://jsfiddle.net/user/grantwinney/fiddles/) and embed those into posts too.
+The samples in this repo go along with my blog posts that relate to specific [versions of C#](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history) and [versions of .NET](https://learn.microsoft.com/en-us/dotnet/core/whats-new/), which are [very closely related](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/relationships-between-language-and-library) and usually updated at the same time (as seen [here](https://github.com/dotnet/csharplang/blob/main/Language-Version-History.md) and [there](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)#Versions)). I occasionally host shorter snippets on [Gist](https://gist.github.com/grantwinney) or [JsFiddle](https://jsfiddle.net/user/grantwinney/fiddles/) and embed those into posts too.
 
 The list below has links to each blog post, as well as a direct link to the relevant code for each post, separated by version of language/framework. If you're interested in seeing some of these applied specifically to WinForms, check out my [Surviving WinForms](https://github.com/grantwinney/Surviving-WinForms) repo.
 
@@ -55,4 +55,4 @@ The list below has links to each blog post, as well as a direct link to the rele
 
 ## C# 1 / .NET 1
 
-- None
+- Some practical examples of C# attributes ([blog post](https://grantwinney.com/5-examples-of-attributes-in-c-and-why-youll-want-to-make-your-own/), [source code](https://github.com/grantwinney/BlogCodeSamples/tree/master/AttributesExamples))
