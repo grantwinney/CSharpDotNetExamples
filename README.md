@@ -10,11 +10,11 @@ The list below has links to each blog post, as well as a direct link to the rele
 
 ## C# 11 / .NET 7
 
-- Generic Math Support ([source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericMathSupport))
+- **Generic Math Support** ([source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericMathSupport))
   - Part 1 - What's a static abstract interface method in C#? ([blog post](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c))
   - Part 2 - How do I overload arithmetic, equality, and comparison operators in C#? ([blog post](https://grantwinney.com/how-do-i-overload-operators-in-csharp))
   - Part 3 - What is Generic Math Support in C# 11? ([blog post](https://grantwinney.com/whats-generic-math-support-in-csharp))
-- What are generic attributes? ([blog post](https://grantwinney.com/what-are-generic-attributes), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericAttributes))
+- What are **generic attributes**? ([blog post](https://grantwinney.com/what-are-generic-attributes), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericAttributes))
 
 ## C# 10 / .NET 6
 
@@ -30,15 +30,15 @@ The list below has links to each blog post, as well as a direct link to the rele
 
 ## C# 7 / .NET 4.7
 
-- Adding deconstructors to your own (and built-in) types in C# ([blog post](https://grantwinney.com/adding-deconstructors-in-csharp-is-it-worth-it), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2007/DeconstructingUserDefinedTypes))
-- Local functions in C# (aka nested methods) ([blog post](https://grantwinney.com/local-functions-in-csharp-aka-nested-methods), [source code](https://github.com/grantwinney/SurvivingWinForms/tree/master/ClarityConciseness/LocalFunctions)) †
-- Tuples and deconstruction for quickly returning multiple values ([blog post](https://grantwinney.com/using-tuple-and-deconstruction-to-return-multiple-values), [source code](https://github.com/grantwinney/SurvivingWinForms/tree/master/ClarityConciseness/TupleDeconstruction)) †
+- Adding **deconstructors** to your own (and built-in) types in C# ([blog post](https://grantwinney.com/adding-deconstructors-in-csharp-is-it-worth-it), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2007/DeconstructingUserDefinedTypes))
+- **Local functions** in C# (aka nested methods) ([blog post](https://grantwinney.com/local-functions-in-csharp-aka-nested-methods), [source code](https://github.com/grantwinney/SurvivingWinForms/tree/master/ClarityConciseness/LocalFunctions)) †
+- **Tuples and deconstruction** for quickly returning multiple values ([blog post](https://grantwinney.com/using-tuple-and-deconstruction-to-return-multiple-values), [source code](https://github.com/grantwinney/SurvivingWinForms/tree/master/ClarityConciseness/TupleDeconstruction)) †
 
 ## C# 6 / .NET 4.6
 
-- Checking for null using the null-conditional and null-coalescing operators ([blog post](https://grantwinney.com/null-conditional-and-null-coalescing-operators), [source code](https://github.com/grantwinney/SurvivingWinForms/tree/master/ClarityConciseness/NullHandlingOperators)) †
-- Using nameof to avoid magic strings ([blog post](https://grantwinney.com/using-nameof-to-avoid-magic-strings), [source code](https://github.com/grantwinney/Surviving-WinForms/tree/master/AntiPatterns/MagicStrings/NameOfVersusMagicStrings)) †
-- Using string interpolation to craft readable strings ([blog post](https://grantwinney.com/using-string-interpolation-to-craft-readable-strings), [source code](https://github.com/grantwinney/SurvivingWinForms/tree/master/ClarityConciseness/StringInterpolation)) †
+- Checking for null using the **null-conditional and null-coalescing operators** ([blog post](https://grantwinney.com/null-conditional-and-null-coalescing-operators), [source code](https://github.com/grantwinney/SurvivingWinForms/tree/master/ClarityConciseness/NullHandlingOperators)) †
+- Using **nameof** to avoid magic strings ([blog post](https://grantwinney.com/using-nameof-to-avoid-magic-strings), [source code](https://github.com/grantwinney/Surviving-WinForms/tree/master/AntiPatterns/MagicStrings/NameOfVersusMagicStrings)) †
+- Using **string interpolation** to craft readable strings ([blog post](https://grantwinney.com/using-string-interpolation-to-craft-readable-strings), [source code](https://github.com/grantwinney/SurvivingWinForms/tree/master/ClarityConciseness/StringInterpolation)) †
 
 ## C# 5 / .NET 4.5
 
@@ -46,7 +46,7 @@ The list below has links to each blog post, as well as a direct link to the rele
 
 ## C# 4 / .NET 4
 
-- Named arguments in C# - pass what you want and forget the rest ([blog post](https://grantwinney.com/named-arguments-in-c-pass-what-you-want-and-forget-the-rest), [source code](https://github.com/grantwinney/SurvivingWinForms/tree/master/ClarityConciseness/NamedArguments)) †
+- **Named arguments** in C# - pass what you want and forget the rest ([blog post](https://grantwinney.com/named-arguments-in-c-pass-what-you-want-and-forget-the-rest), [source code](https://github.com/grantwinney/SurvivingWinForms/tree/master/ClarityConciseness/NamedArguments)) †
 
 ## C# 3 / .NET 3
 
@@ -58,4 +58,4 @@ The list below has links to each blog post, as well as a direct link to the rele
 
 ## C# 1 / .NET 1
 
-- What are attributes in C#, and why do we need them? ([blog post](https://grantwinney.com/5-examples-of-attributes-in-c-and-why-youll-want-to-make-your-own/), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2001/Attributes))
+- What are **attributes** in C#, and why do we need them? ([blog post](https://grantwinney.com/5-examples-of-attributes-in-c-and-why-youll-want-to-make-your-own/), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2001/Attributes))
