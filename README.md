@@ -23,7 +23,7 @@ The list below has links to each blog post, as well as a direct link to the rele
 
 ## C# 9 / .NET 5
 
-- _None_
+- Switch/Case Pattern Matching (vs if/else) ([blog post](https://grantwinney.com/if-else-vs-switch-case-pattern-matching), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2009/SwitchPatternMatchingVsIfElse))
 
 ## C# 8 / .NET Core 3.x
 

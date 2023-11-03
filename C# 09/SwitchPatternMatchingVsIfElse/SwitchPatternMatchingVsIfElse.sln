@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchPatternMatchingVsIfElse", "SwitchPatternMatchingVsIfElse\SwitchPatternMatchingVsIfElse.csproj", "{04095ADF-A2A1-4388-9697-7EC9811A5F00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04095ADF-A2A1-4388-9697-7EC9811A5F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04095ADF-A2A1-4388-9697-7EC9811A5F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04095ADF-A2A1-4388-9697-7EC9811A5F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04095ADF-A2A1-4388-9697-7EC9811A5F00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DC5283F-4ADA-4BC9-A93C-9F572A09EF26}
+	EndGlobalSection
+EndGlobal
