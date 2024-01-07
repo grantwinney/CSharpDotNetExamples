@@ -1,0 +1,6 @@
+@TimeAbstraction_HostAddress = http://localhost:5122
+
+GET {{TimeAbstraction_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -6,14 +6,15 @@ The list below has links to each blog post, as well as a direct link to the rele
 
 ## C# 12 / .NET 8
 
-- _None_
+- Time Abstraction
+  - Part 1 - How to use TimeProvider and FakeTimeProvider ([blog post](https://grantwinney.com/how-to-use-timeprovider-and-faketimeprovider), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2012/TimeAbstraction))
 
 ## C# 11 / .NET 7
 
 - Generic Math Support series ([source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericMathSupport))
-  - Part 1 - What's a static abstract interface method in C#? ([blog post](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c))
-  - Part 2 - How do I overload arithmetic, equality, and comparison operators in C#? ([blog post](https://grantwinney.com/how-do-i-overload-operators-in-csharp))
-  - Part 3 - What is Generic Math Support in C# 11? ([blog post](https://grantwinney.com/whats-generic-math-support-in-csharp))
+  - Part 1 - What's a static abstract interface method? ([blog post](https://grantwinney.com/whats-a-static-abstract-interface-method-in-c))
+  - Part 2 - How do I overload arithmetic, equality, and comparison operators? ([blog post](https://grantwinney.com/how-do-i-overload-operators-in-csharp))
+  - Part 3 - What is Generic Math Support? ([blog post](https://grantwinney.com/whats-generic-math-support-in-csharp))
 - Generic Attributes ([blog post](https://grantwinney.com/what-are-generic-attributes), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/GenericAttributes))
 - List Patterns ([blog post](https://grantwinney.com/whats-a-list-pattern-in-csharp), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2011/ListPatternMatching))
 
