@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace TimeAbstraction.Controllers
 {
@@ -15,6 +16,9 @@ namespace TimeAbstraction.Controllers
             _busOpLogic4 = busOpLogic4;
         }
 
+        [SwaggerOperation(
+            Summary = "Endpoint that uses a custom IDateTime interface",
+            Description = "This endpoint hits the last method in BusinessOperationsLegacy, which uses a custom interface for DI.")]
         [HttpGet("v1/IsBusinessOpen")]
         public bool GetBusinessOpen3()
         {
@@ -22,6 +26,9 @@ namespace TimeAbstraction.Controllers
         }
 
 
+        [SwaggerOperation(
+            Summary = "Endpoint that uses the new TimeProvider class",
+            Description = "This endpoint hits the method in BusinessOperations, which uses the new TimeProvider abstract class.")]
         [HttpGet("v2/IsBusinessOpen")]
         public bool GetBusinessOpen4()
         {

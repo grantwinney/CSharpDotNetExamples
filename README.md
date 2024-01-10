@@ -8,6 +8,7 @@ The list below has links to each blog post, as well as a direct link to the rele
 
 - Time Abstraction
   - Part 1 - How to use TimeProvider and FakeTimeProvider ([blog post](https://grantwinney.com/how-to-use-timeprovider-and-faketimeprovider), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2012/TimeAbstraction))
+  - Part 2 - How to use TimeProvider and FakeTimeProvider with timers ([blog post](https://grantwinney.com/how-to-use-timeprovider-and-faketimeprovider-with-timers), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2012/TimeAbstraction_Timers))
 
 ## C# 11 / .NET 7
 
