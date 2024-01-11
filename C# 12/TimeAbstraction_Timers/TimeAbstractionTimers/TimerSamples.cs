@@ -23,7 +23,7 @@ namespace TimeAbstractionTimers
 
         public void PrintTime(object? _)
         {
-            //Thread.Sleep(10);
+            Thread.Sleep(100);
 
             var today = _timeProvider.GetLocalNow();
             var message = (today.DayOfWeek == DayOfWeek.Friday && today.Hour >= 17)

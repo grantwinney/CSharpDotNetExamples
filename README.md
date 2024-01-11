@@ -8,7 +8,7 @@ The list below has links to each blog post, as well as a direct link to the rele
 
 - Time Abstraction
   - Part 1 - How to use TimeProvider and FakeTimeProvider ([blog post](https://grantwinney.com/how-to-use-timeprovider-and-faketimeprovider), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2012/TimeAbstraction))
-  - Part 2 - How to use TimeProvider and FakeTimeProvider with timers ([blog post](https://grantwinney.com/how-to-use-timeprovider-and-faketimeprovider-with-timers), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2012/TimeAbstraction_Timers))
+  - Part 2 - How to use TimeProvider and FakeTimeProvider with timers ([blog post](https://grantwinney.com/how-to-use-timeprovider-and-faketimeprovider-to-test-timers), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2012/TimeAbstraction_Timers))
 
 ## C# 11 / .NET 7
 
@@ -61,5 +61,5 @@ The list below has links to each blog post, as well as a direct link to the rele
 
 ## C# 1 / .NET 1
 
-- Attributes ([blog post](https://grantwinney.com/5-examples-of-attributes-in-c-and-why-youll-want-to-make-your-own/), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2001/Attributes))
+- Attributes ([blog post](https://grantwinney.com/what-are-attributes-and-why-do-we-need-them/), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2001/Attributes))
 - Exceptions (throw vs throw ex) ([blog post](https://grantwinney.com/does-rethrowing-an-exception-in-csharp-still-reset-the-stack-trace/))

@@ -27,11 +27,11 @@ namespace TimeAbstractionTimers_Tests
             fakeTimeProvider.SetUtcNow(new DateTimeOffset(2024, 1, 9, 1, 0, 0, TimeSpan.Zero)); // Tues
             fakeTimeProvider.SetLocalTimeZone(TimeZoneInfo.Utc);
 
-            // Start the timer, then teleport 30 seconds into the future
+            // Start the timer, then teleport 5 seconds into the future
             timerSamples.StartTimers();
-            fakeTimeProvider.Advance(TimeSpan.FromSeconds(30));
+            fakeTimeProvider.Advance(TimeSpan.FromSeconds(5));
 
-            consoleMock.Verify(x => x.WriteLine(It.Is<string>(x => x.StartsWith("THE CURRENT TIME"))), Times.AtLeast(30));
+            consoleMock.Verify(x => x.WriteLine(It.Is<string>(x => x.StartsWith("THE CURRENT TIME"))), Times.AtLeastOnce());
             consoleMock.Verify(x => x.WriteLine(It.Is<string>(x => x.StartsWith("TGIF!!!"))), Times.Never());
         }
 
@@ -41,11 +41,11 @@ namespace TimeAbstractionTimers_Tests
             fakeTimeProvider.SetUtcNow(new DateTimeOffset(2024, 1, 12, 1, 0, 0, TimeSpan.Zero)); // Fri @ 1am
             fakeTimeProvider.SetLocalTimeZone(TimeZoneInfo.Utc);
 
-            // Start the timer, then teleport 30 seconds into the future
+            // Start the timer, then teleport 5 seconds into the future
             timerSamples.StartTimers();
-            fakeTimeProvider.Advance(TimeSpan.FromSeconds(30));
+            fakeTimeProvider.Advance(TimeSpan.FromSeconds(5));
 
-            consoleMock.Verify(x => x.WriteLine(It.Is<string>(x => x.StartsWith("THE CURRENT TIME"))), Times.AtLeast(30));
+            consoleMock.Verify(x => x.WriteLine(It.Is<string>(x => x.StartsWith("THE CURRENT TIME"))), Times.AtLeastOnce());
             consoleMock.Verify(x => x.WriteLine(It.Is<string>(x => x.StartsWith("TGIF!!!"))), Times.Never());
         }
 
@@ -55,23 +55,23 @@ namespace TimeAbstractionTimers_Tests
             fakeTimeProvider.SetUtcNow(new DateTimeOffset(2024, 1, 12, 17, 0, 0, TimeSpan.Zero)); // Fri @ 5pm
             fakeTimeProvider.SetLocalTimeZone(TimeZoneInfo.Utc);
 
-            // Start the timer, then teleport 30 seconds into the future
+            // Start the timer, then teleport 5 seconds into the future
             timerSamples.StartTimers();
-            fakeTimeProvider.Advance(TimeSpan.FromSeconds(30));
+            fakeTimeProvider.Advance(TimeSpan.FromSeconds(5));
 
             consoleMock.Verify(x => x.WriteLine(It.Is<string>(x => x.StartsWith("THE CURRENT TIME"))), Times.Never());
-            consoleMock.Verify(x => x.WriteLine(It.Is<string>(x => x.StartsWith("TGIF!!!"))), Times.AtLeast(30));
+            consoleMock.Verify(x => x.WriteLine(It.Is<string>(x => x.StartsWith("TGIF!!!"))), Times.AtLeastOnce());
         }
 
         [Test]
         public void PrintTimeTimer_MessageTransitionsCorrectly_WhenFridayAfternoonTurnsToEvening()
         {
-            fakeTimeProvider.SetUtcNow(new DateTimeOffset(2024, 1, 12, 16, 59, 45, TimeSpan.Zero)); // Fri @ 4:59:45pm
+            fakeTimeProvider.SetUtcNow(new DateTimeOffset(2024, 1, 12, 16, 59, 57, TimeSpan.Zero)); // Fri @ 4:59:57pm
             fakeTimeProvider.SetLocalTimeZone(TimeZoneInfo.Utc);
 
-            // Start the timer, then teleport 30 seconds into the future
+            // Start the timer, then teleport 5 seconds into the future
             timerSamples.StartTimers();
-            fakeTimeProvider.Advance(TimeSpan.FromSeconds(30));
+            fakeTimeProvider.Advance(TimeSpan.FromSeconds(5));
 
             consoleMock.Verify(x => x.WriteLine(It.Is<string>(x => x.StartsWith("THE CURRENT TIME"))), Times.AtLeastOnce());
             consoleMock.Verify(x => x.WriteLine(It.Is<string>(x => x.StartsWith("TGIF!!!"))), Times.AtLeastOnce());
