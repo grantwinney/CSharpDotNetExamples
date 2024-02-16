@@ -1,8 +1,8 @@
 # C# / .NET Examples
 
-The samples in this repo go along with my blog posts that relate to specific [versions of C#](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history) and [versions of .NET](https://learn.microsoft.com/en-us/dotnet/core/whats-new/), which are [very closely related](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/relationships-between-language-and-library) and usually updated at the same time (as seen [here](https://github.com/dotnet/csharplang/blob/main/Language-Version-History.md) and [there](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)#Versions)). I occasionally host shorter snippets on [Gist](https://gist.github.com/grantwinney) or [JsFiddle](https://jsfiddle.net/user/grantwinney/fiddles/) and embed those into posts too.
+This repo goes with [my blog posts](https://grantwinney.com) that relate to specific [versions of C#](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history) and [versions of .NET](https://learn.microsoft.com/en-us/dotnet/core/whats-new/), which are [very closely related](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/relationships-between-language-and-library) and usually updated at the same time _(see [here](https://github.com/dotnet/csharplang/blob/main/Language-Version-History.md) and [here](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)#Versions))_. I sometimes upload code to separate repos (like for [WinForms](https://github.com/grantwinney/Surviving-WinForms) and [misc topics](https://github.com/grantwinney/BlogCodeSamples)), or to [Gist](https://gist.github.com/grantwinney) or [JsFiddle](https://jsfiddle.net/user/grantwinney/fiddles/) for shorter snippets.
 
-The list below has links to each blog post, as well as a direct link to the relevant code for each post, separated by version of language/framework. Links with a `†` next to them are in a separate repo, most likely [Surviving WinForms](https://github.com/grantwinney/Surviving-WinForms), which introduces concepts while showing how they could be applied to WinForms.
+The list below has links to each blog post and the relevant code, separated by version of language/framework. Links with a `†` next to them are in a separate repo, most likely [Surviving WinForms](https://github.com/grantwinney/Surviving-WinForms), which applies concepts specifically to the WinForms framework.
 
 ## C# 12 / .NET 8
 
@@ -63,3 +63,8 @@ The list below has links to each blog post, as well as a direct link to the rele
 
 - Attributes ([blog post](https://grantwinney.com/what-are-attributes-and-why-do-we-need-them/), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/C%23%2001/Attributes))
 - Exceptions (throw vs throw ex) ([blog post](https://grantwinney.com/does-rethrowing-an-exception-in-csharp-still-reset-the-stack-trace/))
+
+## General Concepts
+
+* Implicit vs Explicit Conversion ([blog post](https://grantwinney.com/an-explanation-of-implicit-and-explicit-conversion-in-c/), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/GeneralConcepts/ImplicitExplicitOperators))
+* Singleton vs Scoped vs Transient ([blog post](https://grantwinney.com/difference-between-singleton-scoped-transient), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/GeneralConcepts/SingletonVsTransientDI))
