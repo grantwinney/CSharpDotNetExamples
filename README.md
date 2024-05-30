@@ -66,5 +66,5 @@ The list below has links to each blog post and the relevant code, separated by v
 
 ## General Concepts
 
-* Implicit vs Explicit Conversion ([blog post](https://grantwinney.com/an-explanation-of-implicit-and-explicit-conversion-in-c/), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/GeneralConcepts/ImplicitExplicitOperators))
+* Implicit vs Explicit Conversion ([blog post](https://grantwinney.com/csharp-implicit-vs-explicit-conversion/), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/GeneralConcepts/ImplicitExplicitOperators))
 * Singleton vs Scoped vs Transient ([blog post](https://grantwinney.com/difference-between-singleton-scoped-transient), [source code](https://github.com/grantwinney/CSharpDotNetExamples/tree/master/GeneralConcepts/SingletonVsTransientDI))
