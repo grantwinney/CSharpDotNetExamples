@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompareObjectsForEquality", "CompareObjectsForEquality\CompareObjectsForEquality.csproj", "{38A12D23-41B7-4267-8A13-9BAEFE179B4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualityTests", "EqualityTests\EqualityTests.csproj", "{CDE1950F-BF3B-421B-B476-831AA6E5554D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38A12D23-41B7-4267-8A13-9BAEFE179B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A12D23-41B7-4267-8A13-9BAEFE179B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A12D23-41B7-4267-8A13-9BAEFE179B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A12D23-41B7-4267-8A13-9BAEFE179B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDE1950F-BF3B-421B-B476-831AA6E5554D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDE1950F-BF3B-421B-B476-831AA6E5554D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDE1950F-BF3B-421B-B476-831AA6E5554D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDE1950F-BF3B-421B-B476-831AA6E5554D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD0BE076-A98E-4FF1-9D75-0B39BE296853}
+	EndGlobalSection
+EndGlobal
