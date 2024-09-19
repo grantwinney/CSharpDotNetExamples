@@ -1,4 +1,4 @@
-﻿// Comparing .NET types for equality
+﻿// .NET Framework and Equality
 
 using CompareObjectsForEquality;
 
@@ -13,12 +13,12 @@ var isAdult = age >= 18;
 Console.WriteLine($"{name} {(isAdult ? "is" : "is not")} an adult.");
 
 var today = new DateTime(2024, 1, 1);
-Console.WriteLine(today == new DateTime(2024, 1, 1));  // true, but why?
+Console.WriteLine(today == new DateTime(2024, 1, 1));
 
 
 // ========== Custom Equality Comparison ==========
 
-// Compare two Person's that are the same instance
+// Compare Person objects
 
 var person = new Person { Name = "Jay", Age = 25 };
 var samePerson = person;
@@ -31,7 +31,7 @@ Console.WriteLine(person.Equals(newPerson));   // false, different instances
 Console.WriteLine(person == newPerson);        // false, different instances
 
 
-// Compare two Vehicles
+// Compare Vehicle objects
 
 var camry = new Vehicle { Make = "Toyota", Model = "Camry", Year = 2024 };
 var alsoCamry = new Vehicle { Make = "Toyota", Model = "Camry", Year = 2024 };
@@ -42,12 +42,3 @@ Console.WriteLine(camry == alsoCamry);       // true, custom equality logic
 
 Console.WriteLine(camry.Equals(bugatti));    // false, custom equality logic
 Console.WriteLine(camry == bugatti);         // false, custom equality logic
-
-
-// ========== Interfaces, and Equality as a Contract ==========
-
-// Simple example using LINQ
-
-var distinctNumbers = new[] { 4, 3, 5, 4, 3, 7, 3 }.Distinct();
-Console.WriteLine(string.Join(",", distinctNumbers));  // 4,3,5,7
-
